@@ -80,10 +80,10 @@ Random flow logs and lookup tables can be generated using the provided Python sc
 
 ### Code Structure
 
-FlowLogParser: Handles loading the lookup table, parsing flow logs, and writing output files.
-InvalidFlowLogException: Custom exception for invalid log lines.
-Main: Entry point for executing the program, orchestrating loading, processing, and outputting results.
-VpcFlowLog: Represents individual flow log entries with methods to construct objects from strings.
+FlowLogParser: Handles loading the lookup table, parsing flow logs, and writing output files.  
+InvalidFlowLogException: Custom exception for invalid log lines.  
+Main: Entry point for executing the program, orchestrating loading, processing, and outputting results.  
+VpcFlowLog: Represents individual flow log entries with methods to construct objects from strings.  
 
 /illumio/VpcFlowLog  
 ├── FlowLogParser.java       # Parses the flow logs and manages lookup table loading  

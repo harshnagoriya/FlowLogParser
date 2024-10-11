@@ -80,15 +80,15 @@ InvalidFlowLogException: Custom exception for invalid log lines.
 Main: Entry point for executing the program, orchestrating loading, processing, and outputting results.
 VpcFlowLog: Represents individual flow log entries with methods to construct objects from strings.
 
-/illumio/VpcFlowLog `<br>`
-├── FlowLogParser.java       # Parses the flow logs and manages lookup table loading `<br>`
-├── InvalidFlowLogException.java # Custom exception for invalid flow log entries `<br>`
-├── VpcFlowLog.java          # Represents a single flow log entry `<br>`
-├── Main.java                # Entry point for executing the program `<br>`
-└── StressTest.java          # Class for stress testing with large datasets `<br>`
-/utils `<br>`
-├── generate_stress_flow_log_file.py # Generates a stress test flow log file `<br>`
-└── generate_stress_lookup_file.py    # Generates a stress test lookup CSV file `<br>`
-/lookup.csv                  # Lookup table for tagging `<br>`
-/flow_logs.txt               # Sample flow logs for analysis `<br>`
+/illumio/VpcFlowLog  
+├── FlowLogParser.java       # Parses the flow logs and manages lookup table loading  
+├── InvalidFlowLogException.java # Custom exception for invalid flow log entries  
+├── VpcFlowLog.java          # Represents a single flow log entry  
+├── Main.java                # Entry point for executing the program  
+└── StressTest.java          # Class for stress testing with large datasets  
+/utils  
+├── generate_stress_flow_log_file.py # Generates a stress test flow log file  
+└── generate_stress_lookup_file.py    # Generates a stress test lookup CSV file  
+/lookup.csv                  # Lookup table for tagging  
+/flow_logs.txt               # Sample flow logs for analysis  
 

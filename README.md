@@ -61,14 +61,14 @@ javac -d . FlowLogParser.java InvalidFlowLogException.java VpcFlowLog.java Main.
 
 ### Example Files
 
-Flow Log File: Create a file named flow_logs.txt with the appropriate format.
-Lookup Table: Create a file named lookup.csv with the required mappings.
+Flow Log File: Create a file named flow_logs.txt with the appropriate format.  
+Lookup Table: Create a file named lookup.csv with the required mappings.  
 
 # Utils
 
-The project includes a utils folder containing Python scripts to generate stress test files:
-    generate_stress_flow_log_file.py: Generates a flow log file with random entries.
-    generate_stress_lookup_file.py: Generates a lookup CSV file with random tag mappings.
+The project includes a utils folder containing Python scripts to generate stress test files:  
+    generate_stress_flow_log_file.py: Generates a flow log file with random entries.  
+    generate_stress_lookup_file.py: Generates a lookup CSV file with random tag mappings.  
 
 ### Testing
 

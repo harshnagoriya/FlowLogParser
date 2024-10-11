@@ -34,12 +34,12 @@ Port,Protocol,Count
 
 ### Design Considerations
 - **VpcFlowLog Data Class**: 
-- Encapsulates all attributes of a flow log entry, making it easier to manage and access log data. This class structure promotes better organization and clarity, allowing for straightforward modifications and enhancements in the future.
-- Using a dedicated class also helps in validation, ensuring that each log entry is correctly formatted and adheres to expected data types.
+   - Encapsulates all attributes of a flow log entry, making it easier to manage and access log data. This class structure promotes better organization and clarity, allowing for straightforward modifications and enhancements in the future.
+   - Using a dedicated class also helps in validation, ensuring that each log entry is correctly formatted and adheres to expected data types.
 
 - **InputStreamReader**:
-- This class provides a flexible way to read character streams, supporting various input types (like files). It allows for reading text data in a character encoding format, which is essential for handling any non-ASCII characters that might appear in the logs.
-- It works well with `BufferedReader`, which efficiently reads large files, improving performance by reducing the number of I/O operations.
+   - This class provides a flexible way to read character streams, supporting various input types (like files). It allows for reading text data in a character encoding format, which is essential for handling any non-ASCII characters that might appear in the logs.
+   - It works well with `BufferedReader`, which efficiently reads large files, improving performance by reducing the number of I/O operations.
 
 ### Assumptions
 - The program only supports the default log format (version 2).
@@ -55,7 +55,9 @@ Port,Protocol,Count
 javac -d . FlowLogParser.java InvalidFlowLogException.java VpcFlowLog.java Main.java StressTest.java
 ```
 3. **Running**:
+```bash
    java illumio.VpcFlowLog.Main
+```
 
 ### Example Files
 
@@ -71,6 +73,9 @@ The project includes a utils folder containing Python scripts to generate stress
 ### Testing
 
 Use the provided StressTest class to run tests with larger datasets.
+```bash
+   java illumio.VpcFlowLog.StressTest
+```
 Random flow logs and lookup tables can be generated using the provided Python scripts.
 
 ### Code Structure

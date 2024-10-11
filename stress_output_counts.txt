@@ -1,0 +1,29 @@
+Tag Counts:
+Tag,Count
+Tag_93,6249
+Tag_4,6292
+Tag_189,6266
+Tag_25,6160
+Tag_169,6293
+Tag_89,12540
+Tag_56,6295
+Tag_43,6190
+Tag_21,6387
+Tag_119,12591
+Tag_182,6299
+Tag_194,12542
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+23644,udp,6293
+23644,icmp,6160
+23644,tcp,6387
+35264,udp,12542
+35264,tcp,12540
+34756,icmp,6266
+34756,tcp,6190
+34756,udp,6295
+35264,icmp,12591
+12244,udp,6249
+12244,icmp,6292
+12244,tcp,6299
